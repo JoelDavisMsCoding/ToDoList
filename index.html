@@ -9,17 +9,27 @@
 </head>
 <body>
     <div class="container container1">
-        <div class="row row1">
-            <div class="col-12 col1">
-                <input type="text" name="inputField" id="userInput">
-                <button type="submit" id="addTask"> Add Task</button>
-                <div class=".row incomingData d-flex">
-                    <div class=".col .flex-column displayCheckBox"></div>
-                    <div class=".col displayList"></div>
-                </div>
+        <div class="row">
+            <div class="col">
+                <h1>To Do List</h1>
             </div>
         </div>
     </div>
+
+    <div class="container container2">
+        <div class="row ct2Row1">
+            <div class="col-6 col-sm-4 ct2Col1">
+                <input type="text" id="inputTextBox">
+            </div>
+            <div class="col-3 col-sm-2 ct2Col2">
+                <input type="button" value="Add Task">
+            </div>
+            <div class="row">
+                <div class="displaySection"></div>             
+            </div>            
+        </div>
+    </div>
+
 </body>
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="./app.js"></script>
 </html>
